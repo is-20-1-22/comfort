@@ -1,0 +1,139 @@
+/*------------------------------------------------------------------------шрифты------------------------------------------------------------------------*/
+@font-face {
+    font-family: "TenorSans";
+    src: url("fonts/TenorSans-Regular.ttf");
+}
+/*--------------------------------------------------------------------расположение----------------------------------------------------------------------*/
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+/*-----------------------------------------------------------------------стили--------------------------------------------------------------------------*/
+body {
+    margin: 0;
+    background: #702632;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+div {
+    cursor: default;
+}
+h1 {
+    font-family: "TenorSans";
+    color: #FFFFFA;
+    font-size: 335px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+}
+h2 {
+    font-family: "TenorSans";
+    color: #FFFFFA;
+    font-size: 30px;
+    margin: 0;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.header {
+    font-family: "TenorSans";
+    color: #40434E;
+    font-size: 20px;
+}
+.text {
+    font-family: "TenorSans";
+    color: #FFFFFA;
+    font-size: 20px;
+}
+.text_reviews {
+    font-family: "TenorSans";
+    color: #FFFFFA;
+    font-size: 20px;
+    font-style: italic;
+}
+.news {
+    font-family: "TenorSans";
+    color: #912F40;
+    font-size: 16px;
+    font-weight: bold;
+}
+.signature {
+    font-family: "TenorSans";
+    color: #fffffa69;
+    font-size: 15px;
+}
+.phone_footer {
+    font-family: "TenorSans";
+    color: #FFFFFA;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.schedule_footer {
+    font-family: "TenorSans";
+    color: #FFFFFA;
+    font-size: 30px;
+}
+.text_footer {
+    font-family: "TenorSans";
+    color: #FFFFFA;
+    font-size: 18px;
+}
+.text_footer2 {
+    font-family: "TenorSans";
+    color: rgba(96, 96, 96, 0.5);
+    font-size: 15px;
+    margin-top: 60px;
+}
+/*-----------------------------------------------------------------------main css-----------------------------------------------------------------------*/
+main {
+    margin: 100px 0;
+    border-top: 10px solid rgba(0, 0, 0, 0.24);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.24);
+}
+main .container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+main .container ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+main .container .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main .container .right {
+    margin-top: 150px;
+}
+main button {
+    border-radius: 100px;
+    width: 45px;
+    height: 45px;
+    background: black;
+    border: 1px solid black;
+    margin-top: 20px;
+    
+}
+main button:hover {
+    background: #FFFFFA;
+    border: 1px solid #FFFFFA;
+}
+main a {
+    font-family: "TenorSans";
+    color: #FFFFFA;
+    font-size: 30px;
+}
+main a:hover {
+    font-family: "TenorSans";
+    color: #912F40;
+    font-size: 30px;
+}
